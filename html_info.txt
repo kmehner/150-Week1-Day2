@@ -1,7 +1,7 @@
 The Form element
 The HTML Form is a container for various input elements that allows us to submit data to a web server
 
-INPUT ELEMENTS - different types 
+INPUT ELEMENTS - different types change based on TYPE
   - Text Input: single-line text input field
   - Password Input: conceals user input for secure data
   - Checkbox: allows user to select one or more options from a list
