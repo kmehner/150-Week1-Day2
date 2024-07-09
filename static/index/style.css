@@ -43,3 +43,13 @@ article p {
 article > p {
   margin-left: 20px;
 }
+
+/* BOX */
+.box {
+  margin: 10px;
+  border: 2px solid #000; 
+  padding: 20px;
+  color: blue;
+  width: 300px;
+  height: 200px; 
+}
