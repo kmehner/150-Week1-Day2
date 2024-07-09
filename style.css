@@ -1,0 +1,45 @@
+h2 {
+  color: darkslategray;
+  font-style: italic;
+}
+
+/* Adding a little spice */
+ul {
+  list-style-type: circle; 
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+
+/* Class selector */
+.special-text {
+  color: darkcyan;
+  font-weight: bold;
+}
+
+.urgent-text {
+  color: red !important
+}
+
+/* ID selector */
+#main-heading {
+  color: darkmagenta;
+  font-size: 24px;
+}
+
+/* https://www.freecodecamp.org/news/css-combinators-to-select-elements/ */
+/* Descendant = every child in a family line */
+/* Child < belongs directly to every parent */
+/* Children ~ are siblings */
+
+/* Descendant combinator */
+article p {
+  color: slategray;
+}
+
+/* Child combinator */
+article > p {
+  margin-left: 20px;
+}
